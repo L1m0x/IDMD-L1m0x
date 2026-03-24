@@ -132,7 +132,7 @@ Now you're ready to use the tool!
  Status: Not Logged In
  🎯 TARGET: None
 --------------------------------------------------
- ```
+
 [1] Login Account
  [2] Full Direct Messages List
  [3] Select Target by Username/ID
