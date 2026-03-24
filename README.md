@@ -205,7 +205,10 @@ You have two ways to select a conversation:
 #### Step 8: Delete all messages that was sent
 1. Type `6` and press Enter
 2. Type YES
-3. You'll see a list [1/190 Messages] ID:4354654 (ID OF THE MESSAGE) | THE MESSAGE THAT WILL BE DELETED
+3. You'll see a list
+<p align="center">
+  <img src="images/screenshot1.jpg" alt="INSTAGRAM DIRECT MESSAGE DELETER" width="600">
+</p>
 4. After this all messages will be deleted one by one with delay 1.5 sec
 
 ---
