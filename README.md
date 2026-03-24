@@ -120,7 +120,7 @@ Now you're ready to use the tool!
    Or if that doesn't work, try:
    ```bash
    python IDMDL1m0x.py
-   ```
+  
 
 3. You should see a menu like this:
 ==================================================
