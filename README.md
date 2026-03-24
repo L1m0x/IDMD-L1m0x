@@ -207,7 +207,7 @@ You have two ways to select a conversation:
 2. Type YES
 3. You'll see a list
 <p align="center">
-  <img src="images/screenshot1.jpg" alt="INSTAGRAM DIRECT MESSAGE DELETER" width="600">
+  <img src="images/screenshot1.jpeg" alt="INSTAGRAM DIRECT MESSAGE DELETER" width="600">
 </p>
 4. After this all messages will be deleted one by one with delay 1.5 sec
 
