@@ -123,6 +123,7 @@ Now you're ready to use the tool!
   
 
 3. You should see a menu like this:
+```
 ==================================================
        🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.2.0
 ==================================================
@@ -131,7 +132,8 @@ Now you're ready to use the tool!
  Status: Not Logged In
  🎯 TARGET: None
 --------------------------------------------------
- [1] Login Account
+ ```
+[1] Login Account
  [2] Full Direct Messages List
  [3] Select Target by Username/ID
  [4] View All Messages
@@ -140,9 +142,7 @@ Now you're ready to use the tool!
  [7] Logout / Switch instagram account
  [8] Exit IDMD-L1m0x
 ==================================================
-   ```
-
----
+```
 
 ### Step 5: Login to Instagram
 
