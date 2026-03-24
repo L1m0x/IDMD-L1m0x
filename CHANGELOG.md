@@ -2,6 +2,10 @@
 
 All major changes to the project **Instagram Direct Message Deleter** will be recorded here.
 
+## [1.2.0] - 2026-XX-XX Coming soon
+### Will be Added
+- More lunguages expect greek,english to the cript can read the messages to work the deletion
+
 ## [1.2.0] - 2026-03-24
 ### Added
 - New function **Logout/Switch Account** (Option 7).
