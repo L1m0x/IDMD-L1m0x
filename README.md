@@ -1,4 +1,4 @@
-# Project: INSTAGRAM DIRECT MESSAGE DELETER
+# INSTAGRAM DIRECT MESSAGE DELETER
 
 <p align="center">
   <img src="images/screenshot.png" alt="INSTAGRAM DIRECT MESSAGE DELETER" width="600">
