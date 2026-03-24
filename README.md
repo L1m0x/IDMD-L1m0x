@@ -1,4 +1,4 @@
-# Project: INSTAGRAM DIRECT MESSAGE DELETER v1.0
+# Project: INSTAGRAM DIRECT MESSAGE DELETER
 
 A Python tool using [instagrapi](https://github.com/adw0rd/instagrapi) to:
 - Log in to Instagram with session persistence
@@ -55,7 +55,7 @@ You should see something like "Python 3.x.x"
 
 ---
 
-### Step 2: Download INSTAGRAM DIRECT MESSAGE DELETER v1.0
+### Step 2: Download INSTAGRAM DIRECT MESSAGE DELETER
 
 You have two options:
 
@@ -121,7 +121,7 @@ Now you're ready to use the tool!
 3. You should see a menu like this:
    ```
 ==================================================
-       🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.0
+       🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.2.0
 ==================================================
               🚀 Created by L1m0x
 ==================================================
