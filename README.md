@@ -1,5 +1,9 @@
 # Project: INSTAGRAM DIRECT MESSAGE DELETER
 
+<p align="center">
+  <img src="images/screenshot.png" alt="INSTAGRAM DIRECT MESSAGE DELETER" width="600">
+</p>
+
 A Python tool using [instagrapi](https://github.com/adw0rd/instagrapi) to:
 - Log in to Instagram with session persistence
 - Full Direct Messages List & Groups
