@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Project: INSTAGRAM DIRECT MESSAGE DELETER v1.0
+# Project: INSTAGRAM DIRECT MESSAGE DELETER v1.2.0
 # Author: L1m0x
 # License: MIT (See LICENSE file for details)
 
@@ -314,7 +314,7 @@ class IGDMTool:
         print(f"{Color.PURPLE}{'='*60}{Color.END}")
         print(f"{Color.YELLOW}🔍 Start scan... Please wait.{Color.END}\n")
 
-        items = self.fetch_all_messages_paginated(2000)
+        items = self.fetch_all_messages_paginated(5000)
         self.last_matches = []
         
         count_text = 0
@@ -455,7 +455,7 @@ class IGDMTool:
         while True:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(f"{Color.PURPLE}{'='*50}{Color.END}")
-            print(f"{Color.BOLD}{Color.CYAN}       🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.0{Color.END}")
+            print(f"{Color.BOLD}{Color.CYAN}       🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.2.0{Color.END}")
             print(f"{Color.PURPLE}{'='*50}{Color.END}")
             print(f"{Color.BOLD}{Color.CYAN}              🚀 Created by L1m0x {Color.END}")
             print(f"{Color.PURPLE}{'='*50}{Color.END}")
