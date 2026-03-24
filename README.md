@@ -182,6 +182,7 @@ You have two ways to select a conversation:
 1. You will see a message Start scan... Please wait (will take some minutes)
 2. This will be scan the conversation and will get all the messages,texts,reels,voice messages,videos,photos that you exchanged
 3. When the scan will finish you will see a message 
+```
 ============================================================
 ✅ The scan is completed!
 ------------------------------------------------------------
@@ -197,6 +198,7 @@ You have two ways to select a conversation:
 ============================================================
  🚀 TOTAL FOR DELETION: 4298
 ============================================================
+```
 
 4. Press Enter
 
