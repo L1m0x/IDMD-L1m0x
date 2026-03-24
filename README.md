@@ -307,6 +307,8 @@ This project is licensed under the terms specified in the LICENSE file.
 ## ?? Credits
 
 This tool uses the [instagrapi](https://github.com/adw0rd/instagrapi) library for Instagram API interactions.
+This tool is upgraded,and edited with added deleting all messages including texts,videos,photos,voice messages,reels in greek and english language only.
+Base of the IDMD-L1m0x was https://github.com/startingfrom0rating/Instagram-Message-Deleter big thanks to https://github.com/startingfrom0rating
 
 
 
