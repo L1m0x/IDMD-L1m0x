@@ -1,11 +1,11 @@
-# Instagram Direct Message Remover - Unlimited Pagination & Working Unsend
+# Project: INSTAGRAM DIRECT MESSAGE DELETER v1.0
 
 A Python tool using [instagrapi](https://github.com/adw0rd/instagrapi) to:
 - Log in to Instagram with session persistence
-- List and select DM threads
-- View unlimited messages (proper cursor-based pagination)
-- Search all messages greek,english,numbers,voice messages,photos,videos,reels,
-- **Unsend** your own messages that match search criteria
+- Full Direct Messages List & Groups
+- View all messages (texts,voice messages,calls,reels,videos,photos)
+- Search all messages greek,english,numbers,voice messages,photos,videos,reels
+- **Delete all messages sent** your own messages that match search criteria
 
 ---
 
@@ -55,7 +55,7 @@ You should see something like "Python 3.x.x"
 
 ---
 
-### Step 2: Download This Tool
+### Step 2: Download INSTAGRAM DIRECT MESSAGE DELETER v1.0
 
 You have two options:
 
@@ -73,8 +73,8 @@ You have two options:
    ```
 3. Clone the repository:
    ```bash
-   git clone https://github.com/L1m0x/IMD-L1m0x.git
-   cd IMD-L1m0x
+   git clone https://github.com/L1m0x/IDMD-L1m0x.git
+   cd IDMD-L1m0x
    ```
 
 ---
@@ -86,10 +86,10 @@ This tool needs a library called "instagrapi" to work with Instagram.
 1. Open Terminal/Command Prompt
 2. Navigate to the folder where you saved this tool:
    ```bash
-   cd path/to/IMD-L1m0x
+   cd path/to/IDMD-L1m0x
    ```
-   Example on Windows: `cd C:\Users\YourName\Desktop\IMD-L1m0x`
-   Example on Mac/Linux: `cd ~/Desktop/IMD-L1m0x`
+   Example on Windows: `cd C:\Users\YourName\Desktop\IDMD-L1m0x`
+   Example on Mac/Linux: `cd ~/Desktop/IDMD-L1m0x`
 
 3. Install the required library:
    ```bash
@@ -111,30 +111,32 @@ Now you're ready to use the tool!
 1. Make sure you're in the tool's folder (from Step 3)
 2. Run the tool:
    ```bash
-   python3 idml1m0x.py
+   python3 IDMDL1m0x.py
    ```
    Or if that doesn't work, try:
    ```bash
-   python idml1m0x.py
+   python IDMDL1m0x.py
    ```
 
 3. You should see a menu like this:
    ```
-   ==================================================
-   INSTAGRAM MESSAGE REMOVER V2.0
-   ==================================================
-   Not logged in
-   
-   Options:
-   1. Login
-   2. List Threads (Raw API)
-   3. Select Thread (by ID/username)
-   4. View Messages (Unlimited)
-   5. Search Messages (Unlimited)
-   6. Unsend Messages (Working)
-   7. Exit
-   
-   Select option (1-7):
+==================================================
+       🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.0
+==================================================
+              🚀 Created by L1m0x
+==================================================
+ Status: Not Logged In
+ 🎯 TARGET: None
+--------------------------------------------------
+ [1] Login Account
+ [2] Full Direct Messages List
+ [3] Select Target by Username/ID
+ [4] View All Messages
+ [5] Start a full scan of all messages
+ [6] Delete all messages sent
+ [7] Logout / Switch instagram account
+ [8] Exit IDMD-L1m0x
+==================================================
    ```
 
 ---
@@ -146,7 +148,7 @@ Now you're ready to use the tool!
 3. Enter your Instagram password (it will be hidden for security)
 4. Wait for login to complete
 
-**Note:** Your login information is stored locally on your computer and is used only to connect to Instagram. The tool saves your session so you don't have to login every time.
+**Note:** Your login information is stored locally on your computer and is used only to connect to Instagram. The IDMD saves your session so you don't have to login every time.
 
 ---
 
@@ -154,9 +156,10 @@ Now you're ready to use the tool!
 
 You have two ways to select a conversation:
 
-#### Option A: List All Conversations
+#### Option A: List All Direct Messages
 1. Type `2` and press Enter
-2. You'll see a list of your recent conversations with numbers
+2. You'll see a list of all conversations with usernames,thread id
+2. For older conversations write M and hit enter the go to the next list
 3. Type the number of the conversation you want and press Enter
 
 #### Option B: Select by Username
@@ -166,60 +169,45 @@ You have two ways to select a conversation:
 
 ---
 
-### Step 7: Bulk Delete Messages
+#### Optional Option: View Recent Messages
+1. Type `4` and press Enter
+2. You will see all messages that you recaived and send
+3. Press Enter
 
-Now comes the main part - deleting your messages in bulk!
+### Step 7: Full scan of messages
 
-#### Step 7.1: Search for Messages to Delete
-1. Type `5` and press Enter (Search Messages)
-2. Enter keywords to search for. Examples:
-   - To delete all messages containing "hello": type `hello`
-   - To delete messages with multiple words: type `hello,hi,hey` (comma-separated)
-3. Enter how many messages to search through (default is 1000)
-   - The tool will search through your messages and find all matches
-4. You'll see a list of all matching messages
+1. You will see a message Start scan... Please wait (will take some minutes)
+2. This will be scan the conversation and will get all the messages,texts,reels,voice messages,videos,photos that you exchanged
+3. When the scan will finish you will see a message 
+============================================================
+✅ The scan is completed!
+------------------------------------------------------------
+ 📝 Texts:    6148 Ammount of total texts
+ 🎬 Reels:      0 Ammount of reels
+ 🎤 Voice Messages:    217 Ammount of Voice Messages
+ 🖼️ Media:      77 Ammount of media like photos,videos
 
-#### Step 7.2: Delete the Messages
-1. Type `6` and press Enter (Unsend Messages)
-2. You'll see:
-   - How many of YOUR messages will be deleted
-   - A preview of the first 10 messages
-3. **IMPORTANT**: Only YOUR messages will be deleted, not the other person's messages
-4. Type `YES` (in capital letters) to confirm
-5. Wait while the tool deletes your messages one by one
-6. You'll see a progress report as it works
+============================================================
+ 🚀 ABOUTIONS REFERRING:
+ Yours (will be deleted): 4298
+ Other (They will remain): 2144
+============================================================
+ 🚀 TOTAL FOR DELETION: 4298
+============================================================
 
----
+4. Press Enter
 
-## ?? Common Use Cases
-
-### Delete All Messages in a Conversation
-1. Login (Option 1)
-2. Select the conversation (Option 2 or 3)
-3. Search for messages using a very common word like "a" or "the" (Option 5)
-4. Enter a high number like 5000 to search through many messages
-5. Unsend all found messages (Option 6)
-
-### Delete Messages Containing Specific Words
-1. Login (Option 1)
-2. Select the conversation (Option 2 or 3)
-3. Search for specific keywords like "password,secret,embarrassing" (Option 5)
-4. Review the matches
-5. Unsend the matching messages (Option 6)
-
-### Delete Recent Messages Only
-1. Login (Option 1)
-2. Select the conversation (Option 2 or 3)
-3. Search with a small number like 100 messages (Option 5)
-4. Use keywords or search for common words
-5. Unsend the matching messages (Option 6)
+#### Step 8: Delete all messages that was sent
+1. Type `6` and press Enter
+2. Type YES
+3. You'll see a list [1/190 Messages] ID:4354654 (ID OF THE MESSAGE) | THE MESSAGE THAT WILL BE DELETED
+4. After this all messages will be deleted one by one with delay 1.5 sec
 
 ---
-
 ## ? FAQ (Frequently Asked Questions)
 
 ### Q: Will this delete the other person's messages too?
-**A:** No! This tool only deletes (unsends) YOUR messages. The other person's messages will remain in the conversation.
+**A:** No! The IDMD only deletes (unsends) YOUR messages. The other person's messages will remain in the conversation.
 
 ### Q: Can the other person still see my messages?
 **A:** After you unsend a message, it will disappear from both your conversation and the other person's conversation, just like using Instagram's "Unsend" feature manually.
@@ -295,7 +283,6 @@ Now comes the main part - deleting your messages in bulk!
 ### Features
 - Session persistence (stay logged in between uses)
 - Proper cursor-based pagination (can handle thousands of messages)
-- Keyword search across unlimited message history
 - Bulk unsend functionality
 - User-friendly command-line interface
 
