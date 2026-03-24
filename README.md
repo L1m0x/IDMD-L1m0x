@@ -123,7 +123,6 @@ Now you're ready to use the tool!
    ```
 
 3. You should see a menu like this:
-   ```
 ==================================================
        🚀 INSTAGRAM DIRECT MESSAGE DELETER v1.2.0
 ==================================================
