@@ -4,8 +4,12 @@ All major changes to the project **Instagram Direct Message Deleter** will be re
 
 ## [1.2.0] - 2026-XX-XX Coming soon
 ### Will be Added
-- More languages expect greek,english to the cript can read the messages to work the deletion
+- Anti-Detection: Enabled (Random Delays & Activity Sim)
+- Random delays when deleting the message to instagram,see like a human activity and not bot
+- Activity simulation, Refreshing to feed, and watching my profile after 1,2 seconds and after deleting messages all repeated with delays to bypass insta
+- After Deleting 8 Messages the script is using the Activity Simulation, deleting 8,8 again and after do a break for 3-6 minutes
 
+- 
 ## [1.2.0] - 2026-03-24
 ### Added
 - New function **Logout/Switch Account** (Option 7).
