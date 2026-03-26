@@ -8,7 +8,9 @@ All major changes to the project **Instagram Direct Message Deleter** will be re
 - Random delays when deleting the message to instagram,see like a human activity and not bot
 - Added Simulator methods -> view_feed_and_profile,search_locations,check_inbox_requests,just_scrolling all with random line so instagram cant detect it
 - After Deleting 8 Messages the script is using the Activity Simulation,every time wehn 8 messages have been deleted the activity simulation will be running to byppas instagram scanners and after 100 messages will do a break for 3-6 minutes
-- The script without protection can delete (tested) 2,500 messages from a convertation in 30,25 minutes but after this the instagram suspecting your account,and you can get locked out so added anti-detection it takes more time to delete but you are safe like a human activity  
+- The script without protection can delete (tested) 2,500 messages from a convertation in 30,25 minutes 
+  but after this the instagram suspecting your account,and you can get locked out so added anti-detection
+  it takes more time to delete but you are safe like a human activity  
 
 
 ## [1.2.0] - 2026-03-24
