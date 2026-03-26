@@ -4,6 +4,7 @@ All major changes to the project **Instagram Direct Message Deleter** will be re
 
 ## [1.3.0] - 2026-XX-XX Coming soon
 ### Will be Added
+- 0:50:43 - > 386 messages
 - Anti-Detection: Enabled (Random Delays & Activity Sim)
 - Random delays when deleting the message to instagram,see like a human activity and not bot
 - Added Simulator methods -> view_feed_and_profile,search_locations,check_inbox_requests,just_scrolling all with random line so instagram cant detect it
