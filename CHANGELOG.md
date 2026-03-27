@@ -4,11 +4,13 @@ All major changes to the project **Instagram Direct Message Deleter** will be re
 
 ## [1.3.0] - 2026-XX-XX Coming soon
 ### Will be Added
-- 0:50:43 - > 386 messages
-- 2:30:34 - > 1246 messages
+
+- DELETION SPEED 
 - 10 minutes - > 83 messages
 - 20 minutes - > 166 messages
+- 0:50:43 - > 386 messages
 - 1 Hour - > 500 messages
+- 2:30:34 - > 1246 messages
 - Safety Limit Detected: Do not exceed ~2,200 unsend actions per 24 hours to avoid temporary account lock.
 
 
