@@ -9,6 +9,9 @@ All major changes to the project **Instagram Direct Message Deleter** will be re
 - 10 minutes - > 83 messages
 - 20 minutes - > 166 messages
 - 1 Hour - > 500 messages
+- Safety Limit Detected: Do not exceed ~2,200 unsend actions per 24 hours to avoid temporary account lock.
+
+
 - Anti-Detection: Enabled (Random Delays & Activity Sim)
 - Random delays when deleting the message to instagram,see like a human activity and not bot
 - Added Simulator methods -> view_feed_and_profile,search_locations,check_inbox_requests,just_scrolling all with random line so instagram cant detect it
